@@ -67,6 +67,7 @@ public class BooksAdapter extends BaseAdapter{
     }
 
     private class ViewHolder{
+
         private final TextView V_name;
         private final TextView V_author;
         private final ImageView V_coverart;
