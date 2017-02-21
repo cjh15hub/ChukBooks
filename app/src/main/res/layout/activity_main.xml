@@ -28,7 +28,7 @@
         android:id="@+id/category_chooser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/categoriews"
+        android:entries="@array/categories"
         android:layout_marginTop="-35dp"
         android:layout_marginBottom="10dp"
         android:background="@android:drawable/btn_default" />

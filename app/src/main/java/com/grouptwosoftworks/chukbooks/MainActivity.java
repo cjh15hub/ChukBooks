@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.GridView;
 import android.widget.Spinner;
 
 import java.util.ArrayList;
@@ -35,8 +34,20 @@ public class MainActivity extends AppCompatActivity {
                     "http://www.raywenderlich.com/wp-content/uploads/2016/03/thetoothbook.jpg"),
             new Book(R.string.one_fish_two_fish_red_fish_blue_fish, R.string.dr_seuss, R.drawable.onefish, Book.CATEGORY.Child,
                     "http://www.raywenderlich.com/wp-content/uploads/2016/03/onefish.jpg"),
-            new Book(R.string.PlayersHandbook_2E, R.string.gary_gigax, R.drawable.onefish,  Book.CATEGORY.DnD,""),
-            new Book(R.string.MosterManual_5E, R.string.gary_gigax, R.drawable.abc,  Book.CATEGORY.DnD,"")
+
+            new Book(R.string.PlayersHandbook_2E, R.string.Mike_Mearls, R.drawable.ph5e,  Book.CATEGORY.DnD,""),
+            new Book(R.string.MosterManual_5E, R.string.Christopher_Perkins, R.drawable.mm5e,  Book.CATEGORY.DnD,""),
+            new Book(R.string.Tome_of_Beasts_5E, R.string.Dan_Dillon, R.drawable.tob5e,  Book.CATEGORY.DnD,""),
+            new Book(R.string.Fifth_Edition_Options, R.string.Brian_Berg, R.drawable.options5e,  Book.CATEGORY.DnD,""),
+            new Book(R.string.Dungeon_Masters_Guide, R.string.Jeremy_Crawford, R.drawable.dmg5e,  Book.CATEGORY.DnD,""),
+
+            new Book(R.string.Database, R.string.David_Kroenke, R.drawable.database,  Book.CATEGORY.TEXT_BOOK,""),
+            new Book(R.string.Java_EO, R.string.Tony_Gaddis, R.drawable.java,  Book.CATEGORY.TEXT_BOOK,""),
+            new Book(R.string.Networking, R.string.Gregory_Tomsho, R.drawable.networking,  Book.CATEGORY.TEXT_BOOK,""),
+            new Book(R.string.Precalculus, R.string.Sullivan, R.drawable.precalculus,  Book.CATEGORY.TEXT_BOOK,""),
+            new Book(R.string.Psychology, R.string.Karen_Huffman, R.drawable.psychology,  Book.CATEGORY.TEXT_BOOK,""),
+            new Book(R.string.Technical_Drawing, R.string.Frederic_Giesecke, R.drawable.technical_drawing,  Book.CATEGORY.TEXT_BOOK,"")
+
     };
 
 
@@ -74,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         favoritedBooks = new ArrayList();
 
         list_fragment = R.id.list_fragment;
-        category_frags = new Fragment[]{new AllFragment(),new ChildFrag(), new Dnd(), new Science_fiction()};
+        category_frags = new Fragment[]{new AllFragment(),new ChildFragment(), new DndFragment(), new TextBookFragment()};
         category_chooser = (Spinner)findViewById(R.id.category_chooser);
 
         spliceBooks(Book.CATEGORY.All);
@@ -89,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 2: c = Book.CATEGORY.DnD;
                         break;
-                    case 3: c = Book.CATEGORY.ScienceFiction;
+                    case 3: c = Book.CATEGORY.TEXT_BOOK;
                         break;
                 }
                 spliceBooks(c);

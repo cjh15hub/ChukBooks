@@ -61,7 +61,7 @@ public class BooksAdapter extends BaseAdapter{
         viewHolder.V_coverart.setImageResource(book.getImageResource());
         viewHolder.V_name.setText(book.getName());
         viewHolder.V_author.setText(book.getAuthor());
-        viewHolder.V_star.setImageResource(book.getIsFavorite() ? R.drawable.star_enabled : R.drawable.star_disabled);
+        viewHolder.V_star.setImageResource(book.getIsFavorite() ? R.drawable.ic_remove_shopping_cart_black : R.drawable.ic_add_shopping_cart_black);
 
         return convertView;
     }

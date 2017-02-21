@@ -6,7 +6,7 @@ package com.grouptwosoftworks.chukbooks;
 
 public class Book {
 
-    public static enum CATEGORY{All,Child,DnD,ScienceFiction}
+    public static enum CATEGORY{All,Child,DnD, TEXT_BOOK}
 
     private final int name;
     private final int author;

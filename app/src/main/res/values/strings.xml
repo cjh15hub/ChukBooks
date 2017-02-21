@@ -14,8 +14,20 @@
     <string name="the_tooth_book">The Tooth Book</string>
     <string name="one_fish_two_fish_red_fish_blue_fish">One Fish, Two Fish, Red Fish, Blue Fish</string>
 
-    <string name="PlayersHandbook_2E">Dungenons and Dragons 2E Players handbook</string>
-    <string name="MosterManual_5E">Dungenons and Dragons 5E Monster Manual</string>
+    <string name="PlayersHandbook_2E">D&amp;D 5E Players handbook</string>
+    <string name="MosterManual_5E">D&amp;D 5E Monster Manual</string>
+    <string name="Tome_of_Beasts_5E">D&amp;D 5E Tome of Beasts</string>
+    <string name="Fifth_Edition_Options">Fifth Edition Options</string>
+    <string name="Dungeon_Masters_Guide">D&amp;D 5E Dungeon_Masters_Guide</string>
+
+    <string name="Database">Database Concepts 15th Ed.</string>
+    <string name="Java_EO">Java Early Objects 4th Ed.</string>
+    <string name="Networking">Guide to Networking Essentials 6th Ed.</string>
+    <string name="Precalculus">Precalculus 6th Ed.</string>
+    <string name="Psychology">Real World Psychology</string>
+    <string name="Technical_Drawing">Technical Drawing 13th Ed.</string>
+
+
 
     <string name="dr_seuss">Dr. Seuss</string>
     <string name="karen_katz">Karen Katz</string>
@@ -23,13 +35,26 @@
     <string name="eric_carle">Eric Carle</string>
     <string name="sandra_boynton">Sandra Boynton</string>
 
-    <string name="gary_gigax">Gary Gigax</string>
+    <string name="Jeremy_Crawford">Jeremy Crawford</string>
+    <string name="Mike_Mearls">Mike Mearls</string>
+    <string name="Brian_Berg">Brian Berg</string>
+    <string name="Dan_Dillon">Dan Dillon</string>
+    <string name="Christopher_Perkins">Christopher Perkins</string>
+
+    <string name="Karen_Huffman">Karen Huffman</string>
+    <string name="Sullivan">sullivan</string>
+    <string name="Tony_Gaddis">Tony Gaddis</string>
+    <string name="Gregory_Tomsho">Gregory Tomsho</string>
+    <string name="David_Kroenke">David Kroenke</string>
+    <string name="Frederic_Giesecke">JFrederic Giesecke</string>
+
+
 
     <string-array name="categories">
         <item>All</item>
         <item>Children\'s</item>
         <item>D&amp;D</item>
-        <item>Science Fiction</item>
+        <item>Text Books</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
