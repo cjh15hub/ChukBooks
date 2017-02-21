@@ -113,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
 //        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 //            public void onItemClick(AdapterView parent, View view, int position, long id){
 //                Book book = books[position];
