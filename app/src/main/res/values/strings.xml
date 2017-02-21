@@ -57,7 +57,10 @@
         <item>Text Books</item>
     </string-array>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_desc_cover">books cover image</string>
+    <string name="content_desc_cart_icon">cart icon</string>
+    <string name="content_desc_cart_icon_background">cart icon background</string>
+    <string name="content_desc_arrow">arrow for styling spinner</string>
+
 
 </resources>

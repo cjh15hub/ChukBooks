@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     tools:context=".BlankFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <GridView
         android:id="@+id/gridview"
         android:layout_width="match_parent"

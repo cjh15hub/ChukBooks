@@ -12,14 +12,24 @@
             android:id="@+id/imageview_cover_art"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
+            android:contentDescription="@string/content_desc_cover"
             android:scaleType="centerInside"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:color/darker_gray"
+            android:contentDescription="@string/content_desc_cart_icon_background"
+            android:layout_gravity="bottom|end"/>
 
         <ImageView
             android:id="@+id/imageview_favorite"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:src="@drawable/star_disabled"
-            android:layout_gravity="bottom|right"/>
+            android:elevation="10dp"
+            android:src="@drawable/ic_add_shopping_cart_black"
+            android:contentDescription="@string/content_desc_cart_icon"
+            android:layout_gravity="bottom|end"/>
 
     </FrameLayout>
 
